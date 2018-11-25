@@ -1,0 +1,13 @@
+{
+  "name": "samp-listener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp --python=\"C:\\Python27\" build",
+    "configure": "node-gyp --python=\"C:\\Python27\" configure",
+    "debug": "node-gyp --python=\"C:\\Python27\" build --debug"
+  },
+  "dependencies": {
+    "nan": "^2.11.1"
+  }
+}
